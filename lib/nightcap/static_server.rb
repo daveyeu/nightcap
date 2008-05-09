@@ -14,6 +14,12 @@ module Nightcap::StaticServer
       task :restart         do; puts "deploy:restart disabled"; end
       task :start           do; puts "deploy:start disabled"; end
       task :stop            do; puts "deploy:stop disabled"; end
+
+      # Skip shared/* directories for deploy:setup
+      task :setup, :except => { :no_release => true } do
+        dirs = [deploy_to, releases_path, shared_path]
+        try_sudo "umask 02 && mkdir -p #{dirs.join(' ')}"
+      end
     end
   end
 end
