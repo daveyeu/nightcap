@@ -1,10 +1,7 @@
 # Primarily suppresses many standard deploy tasks that aren't needed in a
 # static (or near static) environment.
-#
-# To make use of this, just stick the following in your Capfile (or deploy.rb):
-#
-#   require "nightcap/static_server"
-#
+require "nightcap"
+
 module Nightcap::StaticServer
   Capistrano::Configuration.instance.load do
     namespace :deploy do

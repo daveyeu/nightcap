@@ -1,1 +1,10 @@
 Nightcap is a collection of helpers for Capistrano.
+
+For Phusion Passenger:
+  require "nightcap/passenger"
+
+For static sites (or PHP or something):
+  require "nightcap/static_server"
+
+For some handy defaults in any case (git, master branch, staging + prod):
+  require "nightcap/default"

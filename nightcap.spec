@@ -2,7 +2,7 @@ require "rake"
 
 Gem::Specification.new do |spec|
   spec.name     = "nightcap"
-  spec.version  = "0.0.1"
+  spec.version  = "0.0.2"
   spec.summary  = "Little helpers for Capistrano"
   spec.author   = "David Yeu"
   spec.email    = "me@davidyeu.com"
