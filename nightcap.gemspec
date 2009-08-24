@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name     = "nightcap"
-  spec.version  = "0.0.2"
+  spec.version  = "0.0.3"
   spec.summary  = "Little helpers for Capistrano"
   spec.author   = "David Yeu"
   spec.email    = "me@davidyeu.com"
