@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name     = %q{daveyeu-nightcap}
+  s.name     = %q{nightcap}
   s.version  = "0.0.3"
 
   s.authors  = ["David Yeu"]
