@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name     = %q{nightcap}
-  s.version  = "0.0.3"
+  s.version  = "0.0.4"
 
   s.authors  = ["David Yeu"]
   s.date     = %q{2009-08-27}
